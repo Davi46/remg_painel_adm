@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <!-- META SECTION -->
+        <title>Varius - Responsive Bootstrap Admin Template</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <!-- END META SECTION -->
+        
+        <!-- CSS INCLUDE -->        
+        <link rel="stylesheet" type="text/css" id="theme" href="../css/theme-default.css"/>
+        <!-- EOF CSS INCLUDE -->                                     
+    </head>
+    <body>
+        <!-- START PAGE CONTAINER -->
+        <div class="page-container">
+            
+            <!-- START PAGE SIDEBAR -->
+            <div class="page-sidebar">
+                <!-- START X-NAVIGATION -->
+                <ul class="x-navigation"> 
+                    <li class="xn-profile">
+                        <a href="#" class="profile-mini">
+                            <img src="../assets/images/users/avatar.jpg" alt="John Doe"/>
+                        </a>
+                        <div class="profile">
+                            <div class="profile-image">
+                                <img src="../assets/images/users/avatar.jpg" alt="John Doe"/>
+                            </div>
+                            <div class="profile-data">
+                                <div class="profile-data-name">John Doe</div>
+                                <div class="profile-data-title">Web Developer/Designer</div>
+                            </div> 
+                        </div>                                                                        
+                    </li>
+                    <li class="xn-title">Menu</li>
+                    <li class="xn-openable">
+                        <a href="#"><span class="fa fa-files-o"></span> <span class="xn-text">Gestão de Adultos</span></a>
+                        <ul>
+                            <li><a href="pages-condecoracoes.html"><span class="fa fa-image"></span>Condecorações</a></li>
+                            <li><a href="pages-formacao.html"><span class="fa fa-graduation-cap"></span>Nível de Formação</a></li>
+                            <li><a href="pages-config.html"><span class="fa fa-cogs"></span>Configurações</a></li>                             
+                        </ul>
+                    </li>
+                    <li class="xn-openable">
+                        <a href="#"><span class="fa fa-files-o"></span><span class="xn-text">Métodos Educativo</span></a>
+                        <ul>
+                            <li><a href="pages-gallery.html"><span class="fa fa-image"></span>Distintivos Especiais</a></li>
+                            <li><a href="pages-edit-profile.html"><span class="fa fa-cogs"></span>Configurações</a></li>                         
+                        </ul>
+                    </li> 
+                    
+                </ul>
+                <!-- END X-NAVIGATION -->
+            </div>
+            <!-- END PAGE SIDEBAR -->
+            
+            <!-- PAGE CONTENT -->
+            <div class="page-content">
+                
+               <!-- START X-NAVIGATION VERTICAL -->
+                <ul class="x-navigation x-navigation-horizontal x-navigation-panel">
+                    <!-- TOGGLE NAVIGATION -->
+                    <li class="xn-icon-button">
+                        <a href="#" class="x-navigation-minimize"><span class="fa fa-dedent"></span></a>
+                    </li>
+                    <!-- END TOGGLE NAVIGATION -->
+                    <!-- SEARCH -->
+                    <li class="xn-search">
+                        <form role="form">
+                            <input type="text" name="search" placeholder="Search..."/>
+                        </form>
+                    </li>   
+                    <!-- END SEARCH -->                    
+                    <!-- POWER OFF -->
+                    <li class="xn-icon-button pull-right last">
+                        <a href="#"><span class="fa fa-power-off"></span></a>
+                        <ul class="xn-drop-left animated zoomIn">
+                            <li><a href="pages-lock-screen.html"><span class="fa fa-lock"></span> Lock Screen</a></li>
+                            <li><a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-sign-out"></span> Sign Out</a></li>
+                        </ul>                        
+                    </li> 
+                    <!-- END POWER OFF -->         
+                </ul>
+                <!-- END X-NAVIGATION VERTICAL -->                     
+                
+                <!-- START BREADCRUMB -->
+                <ul class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Gestão Adultos</a></li>
+                    <li class="active">Configurações</li>
+                </ul>
+                <!-- END BREADCRUMB -->
+
+                <!-- PAGE TITLE -->
+                <div class="page-title">                    
+                    <h2> Solicitação de Condecoração</h2>
+                </div>
+                <!-- END PAGE TITLE -->                
+
+                <div class="page-content-wrap">
+                
+                    <div class="row">
+                        <div class="col-md-12"> 
+                            <form class="form-horizontal">
+                                <div class="panel panel-default">  
+                                    <div class="panel-body">      
+                                        <div class="row"> 
+                                            <div class="col-md-6"> 
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Identificador</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="12dcc433-cc06-48fa-a915-24fad65ca5c4" class="form-control"  style="color:black" disabled/>
+                                                    </div>
+                                                </div> 
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Condecoração Solicitada</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="Diploma Mérito Regional" class="form-control"  style="color:black" disabled/>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Com Estojo</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="Não" class="form-control"  style="color:black" disabled/>
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                            <div class="col-md-6"> 
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Data Solicitação</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" class="form-control datepicker" value="2022-11-01"  style="color:black" disabled>
+                                                    </div>
+                                                </div>  
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Status Atual</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="Recebida" class="form-control"  style="color:black" disabled style="color:black"/>
+                                                    </div>
+                                                </div>  
+                                            </div> 
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </form>
+
+                            <form class="form-horizontal">
+                                <div class="panel panel-default">  
+                                    <div class="panel-body">                                                                        
+                                        
+                                        <div class="row"> 
+                                            <div class="col-md-6"> 
+                                                <h3>Dados do Agraciado</h3>          
+                                                
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Nome</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="Davi de Assis Gomes de Almeida" class="form-control"  style="color:black" disabled/>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Registro</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="614764-0" class="form-control"  style="color:black" disabled/>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Grupo Escoteiro</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="46º - GE Lagoa do Nado" class="form-control"  style="color:black" disabled/>
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h3>Dados do Solicitante</h3>
+
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Nome</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="Davi de Assis Gomes de Almeida" class="form-control"  style="color:black" disabled/>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Registro</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="614764-0" class="form-control"  style="color:black" disabled/>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Grupo Escoteiro</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="46º - GE Lagoa do Nado" class="form-control"  style="color:black" disabled/>
+                                                    </div>
+                                                </div> 
+
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Telefone</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="(31) 3012-4567" class="form-control"  style="color:black" disabled/>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Celular</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="(31) 97513-3837" class="form-control"  style="color:black" disabled/>
+                                                    </div>
+                                                </div> 
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">E-mail</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="davi.almeida@email.com" class="form-control"  style="color:black" disabled/>
+                                                    </div>
+                                                </div> 
+                                                <div class="form-group">
+                                                    <label class="col-md-3 col-xs-5 control-label">Função</label>
+                                                    <div class="col-md-9 col-xs-7">
+                                                        <input type="text" value="Diretor de Gestão de Adultos" class="form-control"  style="color:black" disabled/>
+                                                    </div>
+                                                </div> 
+                                            </div> 
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </form>
+
+                            <form class="form-horizontal">
+                                <div class="panel panel-default">  
+                                    <div class="panel-body">   
+                                        <div class="row">  
+                                            <h3>Justificativa da Solicitação</h3>          
+                                            <div class="form-group"> 
+                                                <div class="col-md-9 col-xs-12">                                            
+                                                    <textarea class="form-control" rows="5"  style="color:black" disabled>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                                    </textarea> 
+                                                </div>
+                                            </div>  
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </form>
+
+                            <form class="form-horizontal">
+                                <div class="panel panel-default">  
+                                    <div class="panel-body">      
+                                        <div class="row"> 
+                                            <h3>Alteração de Status</h3>
+                                            <div class="col-md-6"> 
+                                                <div class="form-group">
+                                                    <label class="col-md-3 control-label">Status</label>
+                                                    <div class="col-md-9">                                                                                            
+                                                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                            <option>Em Analise</option>
+                                                            <option>Indeferido</option>
+                                                            <option>Deferido</option>
+                                                            <option>Aprovado Aguardando Pagamento</option>
+                                                            <option>Emitido</option>
+                                                            <option>Enviado Ao Escritorio Nacional</option>
+                                                            <option>Enviado Ao Solicitante</option> 
+                                                        </select>
+                                                        <span class="help-block">Selecione uma opção</span>
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="col-md-3 control-label">Observação</label>
+                                                    <div class="col-md-9 col-xs-12">                                            
+                                                        <textarea class="form-control" rows="5"></textarea> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div> 
+                                    <div class="panel-footer">
+                                        <button class="btn btn-success" style="float:right">Salvar</button>
+                                    </div> 
+                                </div>
+                            </form>  
+                        </div>
+                    </div>    
+                </div>                                   
+            </div>    
+            <!-- END PAGE CONTENT -->
+        </div>
+        <!-- END PAGE CONTAINER -->       
+        
+        <!-- MESSAGE BOX-->
+        <div class="message-box animated fadeIn" data-sound="alert" id="mb-signout">
+            <div class="mb-container">
+                <div class="mb-middle">
+                    <div class="mb-title"><span class="fa fa-sign-out"></span> Log <strong>Out</strong> ?</div>
+                    <div class="mb-content">
+                        <p>Are you sure you want to log out?</p>                    
+                        <p>Press No if youwant to continue work. Press Yes to logout current user.</p>
+                    </div>
+                    <div class="mb-footer">
+                        <div class="pull-right">
+                            <a href="pages-login.html" class="btn btn-success btn-lg">Yes</a>
+                            <button class="btn btn-default btn-lg mb-control-close">No</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MESSAGE BOX-->
+
+        <!-- START PRELOADS -->
+        <audio id="audio-alert" src="../audio/alert.mp3" preload="auto"></audio>
+        <audio id="audio-fail" src="../audio/fail.mp3" preload="auto"></audio>
+        <!-- END PRELOADS -->                       
+        
+    <!-- START SCRIPTS -->
+        <!-- START PLUGINS -->
+        <script type="text/javascript" src="../js/plugins/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/plugins/jquery/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="../js/plugins/bootstrap/bootstrap.min.js"></script>        
+        
+        <!-- END PLUGINS -->                
+
+        <!-- THIS PAGE PLUGINS -->
+        <script type='text/javascript' src='../js/plugins/icheck/icheck.min.js'></script>
+        <script type="text/javascript" src="../js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+        
+        <script type="text/javascript" src="../js/plugins/datatables/jquery.dataTables.min.js"></script>
+        <!-- END PAGE PLUGINS -->
+
+        <!-- START TEMPLATE -->
+        <script type="text/javascript" src="../js/settings.js"></script>
+        
+        <script type="text/javascript" src="../js/plugins.js"></script>        
+        <script type="text/javascript" src="../js/actions.js"></script>        
+        <!-- END TEMPLATE -->
+    <!-- END SCRIPTS -->        
+    </body>
+</html>
